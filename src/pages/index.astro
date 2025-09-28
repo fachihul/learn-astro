@@ -22,7 +22,8 @@ const pageTitle = "Home Page";
     
     <Footer/>
       
-   <script>
+     
+  <script is:inline>
     const menu = document.querySelector('.menu');
 
     menu.addEventListener('click', () => {
@@ -30,6 +31,7 @@ const pageTitle = "Home Page";
       menu.setAttribute('aria-expanded', !isExpanded);
     });
   </script>
+
 </body>
-  </body>
+  
 </html>
